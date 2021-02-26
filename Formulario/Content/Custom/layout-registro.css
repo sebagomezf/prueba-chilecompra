@@ -1,0 +1,99 @@
+﻿/*!
+ * 
+ * Este archivo se autogenero con un compilador de scss a css. Se requieren los siguientes
+ * archivos del proyecto de "Registro proveedores (front-end)" para compilar:
+ *      _layout-registro.scss
+ * Del archivo se reemplazo registro-content por container-content
+ */
+
+.logo-registro {
+    margin-bottom: 50px;
+}
+.custom-control-label {
+    padding-top: 1px;
+    font-size: 14px;
+    color: #152935;
+}
+.button-row {
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+#container-content {
+    background-color: white;
+}
+#container-content .content-title {
+    margin-bottom: 20px;
+}
+#container-content .registro-description {
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+.row.row-form {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+@media (min-width: 768px) {
+    #container-content .content-form {
+        margin-bottom: 10px;
+    }
+    #container-content .content-form form {
+        margin-top: 25px;
+    }
+}
+.container.button-row button {
+    margin: 5px 0 5px 0;
+}
+.was-validated .form-control:invalid, .form-control.is-invalid {
+    background: none !important;
+}
+@media (max-width: 767px) {
+    .validation-summary {
+        margin-bottom: 20px;
+    }
+}
+.validation-summary.error {
+    border: solid 1px #d63649;
+    background: rgba(214, 54, 73, 0.1);
+}
+.validation-summary.exito {
+    border: solid 1px #33ac2e;
+    background: rgba(51, 172, 46, 0.1);
+}
+.validation-summary.info {
+    border: solid 1px #0064ff;
+    background: rgba(0, 100, 255, 0.05);
+}
+.validation-summary.alerta {
+    border: solid 1px #f7c137;
+    background: rgba(247, 193, 55, 0.1);
+}
+.validation-summary .content {
+    padding: 10px;
+}
+.validation-summary .description {
+    color: #5a6872;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-bottom: 0px;
+}
+.validation-summary .description strong {
+    color: #152935;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+}
+.validation-summary ul {
+    margin-top: 7px;
+}
+.validation-summary img {
+    padding: 10px 0 0 15px;
+}
+@media (max-width: 767px) {
+    .img-mobile {
+        max-height: 140px;
+    }
+}
+#version {
+    font-size: 12px;
+}

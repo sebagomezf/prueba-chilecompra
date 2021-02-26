@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>ChileCompra</title>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    
+    <main class="container">
+        
+        <a href="#" class="d-block my-3 volver">
+            <i class="fas fa-chevron-left"></i>
+            Volver
+        </a>
+        
+        <h2 class="my-3 font-weight-light">Agregar productos o servicios</h2>
+        
+        <p class="bajada">Selecciona los productos o servicios a cotizar</p>
+        
+        <div class="botones-buscar">
+            <a href="index.html" class="botones-buscar__link botones-buscar__link--active">Buscar por productos o servicios</a>
+            <a href="navegar-por-rubros.html" class="botones-buscar__link">Navegar por Rubros</a>
+        </div>
+        
+        
+        <section class="buscador p-3 shadow">
+            <form class="d-flex align-items-end">
+                
+                <div class="form-group m-0 w-75 ">
+                    <label for="producto" class="font-weight-bold m-0">Texto o ID de producto a buscar</label>
+                    <input type="text" class="form-control" id="producto" aria-describedby="producto">
+                </div>
+                
+                <button type="submit" class="btn btn-outline-primary buscador__boton ml-3">Buscar</button>
+                
+            </form>
+            <small class="form-text text-muted">
+                Para refinar su búsqueda puede utilizar los siguientes comandos:
+            </small>
+            <ul class="buscador__lista">
+                <li class="buscador__lista-item text-muted">
+                    "Texto": Búsqueda exacta
+                </li>
+                <li class="buscador__lista-item text-muted">
+                    Texto*: Palabras que comienzan con
+                </li>
+                <li class="buscador__lista-item text-muted">
+                    *Texto*: Palabras que contienen
+                </li>
+            </ul>
+        </section>
+        
+        <section class="categoria">
+            <h6 class="font-weight-bold">Alimentos, bebidas y tabaco / Bebidas / Bebidas no alcohólicas</h6>
+            <div class="categoria__item my-2 py-0 px-2 d-flex align-items-center">
+                <i class="fas fa-check-circle categoria__item-icono"></i>
+                <button class="btn btn-link mx-1 categoria__item-boton"><span class="d-none d-md-inline">+</span> Agregar <span class="d-none d-md-inline">al Listado</span></button>
+                <p class="categoria__item-id mb-0 mx-2 mx-md-4">50202301</p>
+                <p class="categoria__item-producto mb-0 mx-2 mx-md-4">Agua</p>
+            </div>
+            <div class="categoria__item my-2 py-0 px-2 d-flex align-items-center">
+                <i class="fas fa-check-circle categoria__item-icono"></i>
+                <button class="btn btn-link mx-1 categoria__item-boton"><span class="d-none d-md-inline">+</span> Agregar <span class="d-none d-md-inline">al Listado</span></button>
+                <p class="categoria__item-id mb-0 mx-2 mx-md-4">50202310</p>
+                <p class="categoria__item-producto mb-0 mx-2 mx-md-4">Agua Mineral</p>
+            </div>
+        </section>
+        
+        
+        <section class="categoria">
+            <h6 class="font-weight-bold">Productos químicos industriales / Metales y gases / Isótipos</h6>
+            <div class="categoria__item my-2 py-0 px-2 d-flex align-items-center">
+                <i class="fas fa-check-circle categoria__item-icono"></i>
+                <button class="btn btn-link mx-1 categoria__item-boton"><span class="d-none d-md-inline">+</span> Agregar <span class="d-none d-md-inline">al Listado</span></button>
+                <p class="categoria__item-id mb-0 mx-2 mx-md-4">12142202</p>
+                <p class="categoria__item-producto mb-0 mx-2 mx-md-4">Agua Pesada</p>
+            </div>
+        </section>
+        
+        
+        <section class="categoria">
+            <h6 class="font-weight-bold">Productos químicos industriales / Aditivos / Surfactantes</h6>
+            <div class="categoria__item my-2 py-0 px-2 d-flex align-items-center">
+                <i class="fas fa-check-circle categoria__item-icono"></i>
+                <button class="btn btn-link mx-1 categoria__item-boton"><span class="d-none d-md-inline">+</span> Agregar <span class="d-none d-md-inline">al Listado</span></button>
+                <p class="categoria__item-id mb-0 mx-2 mx-md-4">12161905</p>
+                <p class="categoria__item-producto mb-0 mx-2 mx-md-4">Limpiadores con chorros de agua</p>
+            </div>
+            <div class="categoria__item my-2 py-0 px-2 d-flex align-items-center">
+                <i class="fas fa-check-circle categoria__item-icono"></i>
+                <button class="btn btn-link mx-1 categoria__item-boton"><span class="d-none d-md-inline">+</span> Agregar <span class="d-none d-md-inline">al Listado</span></button>
+                <p class="categoria__item-id mb-0 mx-2 mx-md-4">12161907</p>
+                <p class="categoria__item-producto mb-0 mx-2 mx-md-4">Aditivos de inundación de agua</p>
+            </div>
+        </section>
+        
+        
+        <section class="categoria">
+            <h6 class="font-weight-bold">Productos químicos industriales / Aditivos / Edurecedores</h6>
+            <div class="categoria__item my-2 py-0 px-2 d-flex align-items-center">
+                <i class="fas fa-check-circle categoria__item-icono"></i>
+                <button class="btn btn-link mx-1 categoria__item-boton"><span class="d-none d-md-inline">+</span> Agregar <span class="d-none d-md-inline">al Listado</span></button>
+                <p class="categoria__item-id mb-0 mx-2 mx-md-4">12162301</p>
+                <p class="categoria__item-producto mb-0 mx-2 mx-md-4">Agentes de curación que da en el agua</p>
+            </div>
+        </section>
+        
+        
+        <section class="categoria">
+            <h6 class="font-weight-bold">Productos químicos industriales / Aditivos / Romperodres de emulsión</h6>
+            <div class="categoria__item my-2 py-0 px-2 d-flex align-items-center">
+                <i class="fas fa-check-circle categoria__item-icono"></i>
+                <button class="btn btn-link mx-1 categoria__item-boton"><span class="d-none d-md-inline">+</span> Agregar <span class="d-none d-md-inline">al Listado</span></button>
+                <p class="categoria__item-id mb-0 mx-2 mx-md-4">12162501</p>
+                <p class="categoria__item-producto mb-0 mx-2 mx-md-4">Agua en aceite rompedores de polímero</p>
+            </div>
+            <div class="categoria__item my-2 py-0 px-2 d-flex align-items-center">
+                <i class="fas fa-check-circle categoria__item-icono"></i>
+                <button class="btn btn-link mx-1 categoria__item-boton"><span class="d-none d-md-inline">+</span> Agregar <span class="d-none d-md-inline">al Listado</span></button>
+                <p class="categoria__item-id mb-0 mx-2 mx-md-4">12162502</p>
+                <p class="categoria__item-producto mb-0 mx-2 mx-md-4">Aceite en agua rompedores de polímero</p>
+            </div>
+        </section>
+        
+        
+        
+        
+        
+        
+    </main>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="https://kit.fontawesome.com/bae9c8cfec.js" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"> </script>
+</body>
+</html>

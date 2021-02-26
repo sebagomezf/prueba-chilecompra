@@ -1,0 +1,121 @@
+﻿/*!
+ * 
+ * Este archivo se autogenero con un compilador de scss a css. Se requieren los siguientes
+ * archivos del proyecto de "Registro proveedores (front-end)" para compilar:
+ *      _vars.scss
+ *      _mixins.scss
+ *      modules/_modals.scss
+ */
+
+.modal-content {
+    border: 1px solid #eff2ff;
+}
+
+.modal-backdrop {
+    background-color: #0064ff;
+}
+
+    .modal-backdrop.show {
+        opacity: 0.15;
+    }
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-body p.style1 {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+    display: grid;
+    color: #2e384d;
+}
+
+.modal-body p.style2 {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: bold;
+    display: grid;
+    color: #8798ad;
+}
+
+.modal-body p.style3,
+.modal-body .custom-control.style3 > .custom-control-label {
+    color: #152935;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.modal-body p.style4 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+#modalConfirmacion .modalPaso2 #lblModalBody2 {
+    color: #152935;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    width: 80% !important;
+}
+
+#modalConfirmacion .modalPaso2 #lblModalBody3 {
+    color: #33ac2e;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+#modalConfirmacion .modalPaso2 #lblModalBody4 {
+    color: #8798ad;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.modal-footer {
+    justify-content: center;
+    border-top: none;
+}
+
+.circle-icon {
+    width: 50px;
+    height: 50px;
+    font-size: 19px;
+    border-radius: 50%;
+}
+    .circle-icon.circle-icon-success {
+        background-color: rgba(51, 172, 46, 0.3);
+    }
+
+    .circle-icon.circle-icon-danger {
+        background-color: rgba(214, 54, 73, 0.3);
+    }
+
+    .circle-icon.circle-icon-warning {
+        background-color: rgba(247, 193, 55, 0.3);
+    }
+
+    .circle-icon.circle-icon-info {
+        background-color: rgba(46, 91, 255, 0.3);
+    }
+
+    .circle-icon i {
+        display: block;
+        position: relative;
+        left: 0px;
+        top: 33%;
+    }
+
+#modalAnularCoti .modal-footer {
+    display: grid;
+}
+
+.modal-dialog.w-50 {
+    max-width: 50% !important;
+}
+.modal-dialog.w-75 {
+    max-width: 75% !important;
+}

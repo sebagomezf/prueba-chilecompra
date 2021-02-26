@@ -1,0 +1,668 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Formulario
+</name>
+</assembly>
+<members>
+<member name="T:Formulario.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Formulario.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:Formulario.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:Formulario.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:Formulario.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:Formulario.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._Head1">
+<summary>
+Control Head1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._lblTitle">
+<summary>
+Control lblTitle.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._divQuote">
+<summary>
+Control divQuote.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._lblExternalCode">
+<summary>
+Control lblExternalCode.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._lblExternalCodeQuote">
+<summary>
+Control lblExternalCodeQuote.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._hdnQuote">
+<summary>
+Control hdnQuote.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._lblNameQuote">
+<summary>
+Control lblNameQuote.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._txtNameQuote">
+<summary>
+Control txtNameQuote.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._rfvNameQuote">
+<summary>
+Control rfvNameQuote.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._lblDescriptionQuote">
+<summary>
+Control lblDescriptionQuote.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._txtDescriptionQuote">
+<summary>
+Control txtDescriptionQuote.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._rfvDescriptionQuote">
+<summary>
+Control rfvDescriptionQuote.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._lblElectronicTo">
+<summary>
+Control lblElectronicTo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._Electronic_To">
+<summary>
+Control Electronic_To.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._txtToTime">
+<summary>
+Control txtToTime.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._revElectronicToTime">
+<summary>
+Control revElectronicToTime.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._revElectronicTo">
+<summary>
+Control revElectronicTo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._rfvElectronicTo">
+<summary>
+Control rfvElectronicTo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._cvFecga">
+<summary>
+Control cvFecga.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._lblDateTimeMessage">
+<summary>
+Control lblDateTimeMessage.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._lblExampleElectronicDateTo">
+<summary>
+Control lblExampleElectronicDateTo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._lblPlazoEntrega">
+<summary>
+Control lblPlazoEntrega.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._txtPlazoEntrega">
+<summary>
+Control txtPlazoEntrega.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._rfvPlazoEntrega">
+<summary>
+Control rfvPlazoEntrega.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._lblMontoTotalDisponible">
+<summary>
+Control lblMontoTotalDisponible.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._txtMontoTotalDisponible">
+<summary>
+Control txtMontoTotalDisponible.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._ddlMoneda">
+<summary>
+Control ddlMoneda.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._lblMontoCalculado">
+<summary>
+Control lblMontoCalculado.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._lblMontoCambio">
+<summary>
+Control lblMontoCambio.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._lblFechaCambio">
+<summary>
+Control lblFechaCambio.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._rfvMontoTotalDisponible">
+<summary>
+Control rfvMontoTotalDisponible.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._lblContactName">
+<summary>
+Control lblContactName.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._txtContactName">
+<summary>
+Control txtContactName.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._rfvContactName">
+<summary>
+Control rfvContactName.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._lblContactPhone">
+<summary>
+Control lblContactPhone.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._txtContactPhone">
+<summary>
+Control txtContactPhone.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._rfvContactPhone">
+<summary>
+Control rfvContactPhone.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._lblContactEmail">
+<summary>
+Control lblContactEmail.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._txtContactEmail">
+<summary>
+Control txtContactEmail.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._rfvContactEmail">
+<summary>
+Control rfvContactEmail.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._revContactEmail">
+<summary>
+Control revContactEmail.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._lblMessage">
+<summary>
+Control lblMessage.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._btnVolver">
+<summary>
+Control btnVolver.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._btnSave">
+<summary>
+Control btnSave.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._btnNext">
+<summary>
+Control btnNext.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._modalConfirmacion">
+<summary>
+Control modalConfirmacion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._btnCloseModalConfirmacion">
+<summary>
+Control btnCloseModalConfirmacion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._lblModalBody1">
+<summary>
+Control lblModalBody1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._lblModalBody2">
+<summary>
+Control lblModalBody2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._paragraphOptionalModal">
+<summary>
+Control paragraphOptionalModal.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._lblModalBody3">
+<summary>
+Control lblModalBody3.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._btnModalFooterOutline">
+<summary>
+Control btnModalFooterOutline.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._lblBtnFooterOutline">
+<summary>
+Control lblBtnFooterOutline.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._btnModalFooter">
+<summary>
+Control btnModalFooter.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._lblBtnFooter">
+<summary>
+Control lblBtnFooter.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._modalError">
+<summary>
+Control modalError.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._btnCloseModalError">
+<summary>
+Control btnCloseModalError.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._lblModalErrorBody1">
+<summary>
+Control lblModalErrorBody1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._paragraphOptionalModalError">
+<summary>
+Control paragraphOptionalModalError.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._lblModalErrorBody2">
+<summary>
+Control lblModalErrorBody2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._btnModalErrorFooterOutline">
+<summary>
+Control btnModalErrorFooterOutline.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Formulario.CrearCotizacionPaso1._lblBtnModalErrorFooter">
+<summary>
+Control lblBtnModalErrorFooter.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="M:Formulario.CrearCotizacionPaso1.Page_Load(System.Object,System.EventArgs)">
+ <summary>
+ Carga la página.
+ Obtiene los parámetros necesarios para la página:
+  - código de Quote.
+  - parámetro de edicion.
+ </summary>
+</member>
+<member name="M:Formulario.CrearCotizacionPaso1.languageText">
+ <summary>
+ Carga los títulos y botones de la página, dependiendo del tipo de edición.
+ También carga las páginas y los mensajes de los validadores.
+ </summary>
+</member>
+<member name="M:Formulario.CrearCotizacionPaso1.loadCustomComponents">
+ <summary>
+ Carga las fechas por defecto del tipo de convocatoria.
+ </summary>
+</member>
+<member name="M:Formulario.CrearCotizacionPaso1.ObtenerSolicitudCotizacion(System.Int32)">
+ <summary>
+ Carga la información general del Quote.
+ </summary>
+</member>
+<member name="M:Formulario.CrearCotizacionPaso1.ValidaData">
+ <summary>
+ Valida las fechas del sistema.
+ Que las fechas no estén vacias, que la fecha desde no sea mayor que la fecha hasta.
+ Y que la fecha desde no sea menor a la fecha actual.
+ </summary>
+</member>
+<member name="M:Formulario.CrearCotizacionPaso1.GuardarSolicitudCotizacion">
+ <summary>
+ Guarda una solicitud de cotización.
+ Crea un Id de solicitud de cotización, si no está en modo edición.
+ Agrega un histórico de solicitud.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Formulario.CrearCotizacionPaso1.btnSave_Click(System.Object,System.EventArgs)">
+ <summary>
+ Botón Guardar, valida los datos y comprueba si ha guardado correctamente, mostrando mensajes de validación al usuario.
+ </summary>
+</member>
+<member name="M:Formulario.CrearCotizacionPaso1.btnNext_Click(System.Object,System.EventArgs)">
+ <summary>
+ Botón Siguiente, valida los datos y comprueba si ha guardado correctamente, mostrando mensajes de validación al usuario.
+ Redirige a la página "Crear Paso 2", enviando los parámetros según esté o no en modo edición.
+ </summary>
+</member>
+<member name="M:Formulario.CrearCotizacionPaso1.ShowMessage(System.Int32)">
+ <summary>
+ Muestra los mensajes de error al usuario, dependiendo del tipo de error.
+ </summary>
+</member>
+<member name="M:Formulario.CrearCotizacionPaso1.ModalMessage(System.Int32)">
+ <summary>
+ Muestra un modal de mensaje dependiendo del tipo.
+ </summary>
+</member>
+</members>
+</doc>
